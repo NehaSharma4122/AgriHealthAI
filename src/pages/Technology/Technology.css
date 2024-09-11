@@ -1,0 +1,30 @@
+h1 {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 40px;
+  color: black;
+  margin-top: 30px;
+  margin-left: 30px;
+  margin-bottom: 20px;
+}
+h3 {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 28px;
+  color: lightgreen;
+  margin-left: 30px;
+}
+p {
+  margin: 20px;
+  font-size: 20px;
+  color: darkcyan;
+}
+.technology {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+img {
+  width: 400px;
+  height: 400px;
+  margin: 30px;
+  border-radius: 30px;
+}

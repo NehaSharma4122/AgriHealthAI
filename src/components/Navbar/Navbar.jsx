@@ -9,7 +9,7 @@ const Navbar = () => {
       <Link to='/'><h2 className="name-logo">AgriHealth AI</h2></Link>
       <ul className="lists">
         <Link to='/' onClick={()=>setMenu("home")} className={menu==="home"?"active":""}>About Us</Link>
-        <a href="#technology" onClick={()=>setMenu("technology")} className={menu==="technology" || location.pathname==='/technology' ?"active":""}>Technology</a>
+        <Link to='/technology' onClick={()=>setMenu("technology")} className={menu==="technology" || location.pathname==='/technology' ?"active":""}>Technology</Link>
         <a href="#sustainability" onClick={()=>setMenu("sustainability")} className={menu==="sustainability" || location.pathname==='/sustainability' ?"active":""}>Sustainability</a>
         <Link to='/blog' onClick={()=>setMenu("blog")} className={menu==="blog" || location.pathname==='/blog' ?"active":""}>Blog</Link>
         <a href="#contact" onClick={()=>setMenu("contact")} className={menu==="contact" || location.pathname==='/contact' ?"active":""}>Contact Us</a>
